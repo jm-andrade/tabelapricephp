@@ -46,17 +46,17 @@
 
                 
     
-            echo '<li id="li-parc">Parcelas: {$NP} </li>
-            <li id="li-taxa">Taxa de juros: {$TAX}%</li>
-            <li id="li-vf">Valor Financiado:  {$PV}</li>
-            <li id="li-vv">Valor a voltar: {$PP}</li>
-            <li id="li-mv">Meses a voltar:{$PB} </li>
-            <li id="li-entrada">Entrada(?) : {$entrada}</li>
+            echo "<li>Parcelas: {$NP} </li>
+            <li>Taxa de juros: {$TAX}%</li>
+            <li>Valor Financiado:  {$PV}</li>
+            <li>Valor a voltar: {$PP}</li>
+            <li>Meses a voltar:{$PB} </li>
+            <li>Entrada(?) : {$entrada}</li>
             <br>
-            <li id="li-cf">Coeficiente de Financiamento: {$cf_rouded}</li>
-            <li id="li-prest">Prestação: {$prest}</li>
-            <li id="li-tr">Taxa real: {$tx_real}</li>
-            <li id="li-vc">Valor corrigido: $ 0,00</li>';
+            <li>Coeficiente de Financiamento: {$cf_rouded}</li>
+            <li>Prestação: {$prest}</li>
+            <li>Taxa real: {$tx_real}</li>
+            <li>Valor corrigido: $ 0,00</li>";
             ?>
         </ul>
     </div>
